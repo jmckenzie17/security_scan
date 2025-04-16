@@ -4,6 +4,8 @@ on:
     branches:
       - main
 
+permissions: read-all
+
 jobs:
   sample:
     name: Microsoft Security DevOps
@@ -45,4 +47,3 @@ jobs:
     #  with:  
     #    name: alerts
     #    path: ${{ steps.msdo.outputs.sarifFile }}
-    
